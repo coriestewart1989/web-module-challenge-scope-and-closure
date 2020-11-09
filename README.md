@@ -43,6 +43,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+it's the ability to access function from a parent level scope in a child level scope
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,8 +65,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+line 54 it calls from its parent
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+the name will be the same the number could change
+
 c. What is the lexical scope of `newRoll`? 
+the return function
 
 ### Task 2c - Exit Ticket
 
